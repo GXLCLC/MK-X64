@@ -3,20 +3,8 @@
 
 name: Build OpenWrt-K
 on:
+  # 仅手动触发：不定时、不跟随提交自动构建，需要在 Actions 页面点击 Run workflow
   workflow_dispatch:
-  schedule:
-    - cron: '0 4 * * *'
-  push:
-    paths:
-      - '.github/**'
-      - 'files/**'
-      - 'build_helper/**'
-      - 'config/**'
-
-      - '!.gitignore'
-      - '!LICENSE'
-      - '!README.md'
-      - '!img/**'
 
 permissions:
   actions: write
