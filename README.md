@@ -48,7 +48,7 @@
 ### 内置功能
 
 ## 已内置以下软件包：
-####1. LuCI插件：
+1. LuCI插件：
   [luci-app-adguardhome](https://github.com/chenmozhijin/luci-app-adguardhome) :AdGuardHome广告屏蔽工具的luci设置界面  
   [luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config):Argon 主题设置  
   luci-app-cifs-mount：SMB/CIFS 网络挂载共享客户端  
