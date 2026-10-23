@@ -7,8 +7,10 @@ has_package() {
     opkg list-installed 2>/dev/null | grep -Eq "^$1( - |$)"
   fi
 }
+#设置主机名
 uci set system.@system[0].hostname='OPEN'
 uci commit system
+#此处修改IP无用，会被openwrtext.config文件替换在config处修改即可
 uci set network.lan.ipaddr="192.168.1.1"
 uci commit network
 /etc/init.d/network restart
