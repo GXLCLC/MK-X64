@@ -7,7 +7,8 @@ has_package() {
     opkg list-installed 2>/dev/null | grep -Eq "^$1( - |$)"
   fi
 }
-
+uci set system.@system[0].hostname='OPEN'
+uci commit system
 uci set network.lan.ipaddr="192.168.1.1"
 uci commit network
 /etc/init.d/network restart
