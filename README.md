@@ -66,11 +66,10 @@
   [luci-app-turboacc](https://github.com/chenmozhijin/turboacc)：Turbo ACC 网络加速  
   luci-app-upnp：通用即插即用（UPnP）  
   luci-app-usb-printer：USB 打印服务器
-  [luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush)：微信推送  
-  luci-app-wol：网络唤醒  
-  luci-app-tailscale-community：Tailscale虚拟局域网
-  luci-app-qbittorrent：qBittorrent-Enhanced-Edition的luci设置界面
-```
+  [luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush)：微信推送
+···
+luci-app-wol：网络唤醒  
+luci-app-tailscale-community：Tailscale虚拟局域网
 luci-app-sqm：Smart Queue Management (SQM) QoS
 luci-app-vlmcsd：VLMCSd KMS 激活工具
 ```
