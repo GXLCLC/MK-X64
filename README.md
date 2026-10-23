@@ -47,8 +47,8 @@
 
 ### 内置功能
 
-已内置以下软件包：
-1. LuCI插件：
+## 已内置以下软件包：
+# 1. LuCI插件：
   [luci-app-adguardhome](https://github.com/chenmozhijin/luci-app-adguardhome) :AdGuardHome广告屏蔽工具的luci设置界面  
   [luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config):Argon 主题设置  
   luci-app-cifs-mount：SMB/CIFS 网络挂载共享客户端  
@@ -67,12 +67,10 @@
   luci-app-upnp：通用即插即用（UPnP）  
   luci-app-usb-printer：USB 打印服务器
   [luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush)：微信推送
-···
-luci-app-wol：网络唤醒  
-luci-app-tailscale-community：Tailscale虚拟局域网
-luci-app-sqm：Smart Queue Management (SQM) QoS
-luci-app-vlmcsd：VLMCSd KMS 激活工具
-```
+  luci-app-wol：网络唤醒  
+  luci-app-tailscale-community：Tailscale虚拟局域网
+  luci-app-sqm：Smart Queue Management (SQM) QoS
+#  luci-app-vlmcsd：VLMCSd KMS 激活工具
 
 1. 其他部分软件包：  
   ethtool-full：网卡工具用于查询及设置网卡参数  
