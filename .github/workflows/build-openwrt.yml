@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: Copyright (c) 2024-2025 沉默の金 <cmzj@cmzj.org>
 # SPDX-License-Identifier: MIT
 
-name: Build OpenWrt-K
+name: Build OpenWrt
 on:
   # 仅手动触发：不定时、不跟随提交自动构建，需要在 Actions 页面点击 Run workflow
   workflow_dispatch:
